@@ -1,26 +1,45 @@
-:root {
-    --azul-header: #3d5974;
-    --azul-footer: #2d4155;
-    /* (usei no botão do login tbm)*/
-    --amarelo: #bf9925;
-    --cinza: #353535;
+#div-header {
+    background-color: var(--azul-header);
 }
 
 header {
-    background-color: var(--azul-header);
-    width: 100%;
+    margin-right: 50px;
 }
 
+/*DADOS PARA IMAGEM SVG*/
+.cls-1 {
+    fill: var(--azul-logo);
+}
+
+.cls-2 {
+    fill: var(--amarelo);
+}
+
+.cls-3 {
+    font-size: 179.21px;
+    fill: #fff;
+    font-family: CenturyGothic-Bold, Century Gothic;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.cls-4 {
+    font-family: CenturyGothic, Century Gothic;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+
+
+/*FIM DO SVG*/
 #menu-superior {
-    background-color: var(--azul-header);
-    width: 100%;
-
+    /*background-color: var(--azul-header);   */
 }
 
-#navBarTopo {
-    
-}
+#navBarTopo {}
 
+
+/*COR DOS LINKS*/
 a.nav-link {
     color: #fff !important;
     font-size: 20px;
@@ -43,42 +62,111 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: bold;
-    color: rgb(182, 39, 87);
+}
+
+.h3-txt-azul {
+    color: var(--azul-header);
+
 }
 
 
+.icone {
+    background-color: var(--azul-header);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
 
-@media (max-width: 992px) {
-    li {
-        padding: 0px;
+.txt-azul {
+    color: var(--azul-header);
+    font-size: 25px;
+}
+
+.icone img {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    svg {
+        width: 0px;
+        height: 0px;
     }
 }
 
+@media (max-width: 992px) {
+
+    /*DETERMINAÇÃO TAMANHO SVG*/
+
+
+    #controleCarrossel {
+        margin-top: 0px;
+    }
+
+    li {
+        padding: 0px;
+    }
+
+    #botao-login {
+        background-color: var(--azul-footer);
+        color: var(--amarelo);
+        padding: 5px;
+        text-decoration: none;
+        position: relative;
+        border-radius: 20%;
+    }
+
+}
+
 @media (min-width: 992px) {
+
+    /*DETERMINAÇÃO TAMANHO SVG*/
+    svg {
+        padding-left: 30px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #controleCarrossel {
+        margin-top: -50px;
+    }
+
     li {
         padding: 10px;
     }
 
-    #itens-submenu {
-        margin-top: -30px;
-        margin-left: 40px;
+    #botao-login {
+        background-color: var(--azul-footer);
+        color: var(--amarelo);
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 435px;
+        float: right;
+        border-radius: 20%;
     }
 }
 
 
-#controleCarrossel img {
-    max-height: 540px;
+#hamburguer {
+    float: clear;
+    float: right;
 }
 
 
-.backgroundColor {
-    background-color: rgb(182, 39, 87);
-}
+
+
+
+
+
 
 footer {
     min-height: 10vh;
-    color: rgb(256, 256, 256);
+    background-color: var(--azul-footer);
     margin-block-end: 0;
+    color: #fff;
 }
 
 #comentarios {
@@ -90,7 +178,30 @@ footer {
     background-size: cover;
 }
 
+.amarelo {
+    background-color: var(--amarelo);
+}
 
+.azul {
+    background-color: var(--azul-footer);
+}
+
+.branco {
+    color: var(--bs-body-bg);
+}
+
+#div-avaliacoes {
+    padding: 50px 0;
+    color: #fff;
+}
+
+.card-avaliacao {
+    height: 100%;
+    /*COR DA CARD*/
+    border: 2px solid;
+    border-color: var(--azul-footer);
+
+}
 
 .items {
     width: 90%;
