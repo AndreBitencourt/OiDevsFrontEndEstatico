@@ -14,11 +14,11 @@
 <body>
 
     <div class="container-fluid" id="div-header">
-        <header class="d-flex flex-wrap py-3">
+        <header class="d-flex flex-wrap">
             <a href="index.html"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <figure id="svg-logo" class="me-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+                    <!--svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
                         <g id="Graphic_Elements" data-name="Graphic Elements">
                             <rect class="cls-1" x="477.08" y="496.32" width="258.15" height="201.36" />
                             <path class="cls-2"
@@ -35,19 +35,20 @@
                                     y="0">Code
                                 </tspan></text>
                         </g>
-                    </svg>
+                    </svg-->
+                    <img src="img/vertical_branco.png" alt="" id="img-logo">
                 </figure>
             </a>
-
+          
             <nav class="navbar navbar-expand-md navbar-expand-lg" id="menu-superior">
-                <div id="hamburguer" >
+
+                <div id="hamburguer">
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navBarTopo"
                     aria-controls="navBarTopo" aria-expanded="false" aria-label="Alterna navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 </div>
-                
-
+                                               
                 <div class="navbar-collapse collapse" id="navBarTopo">
 
                     <ul class="navbar-nav ml-auto">
@@ -69,10 +70,15 @@
                         </li>
                      
                     </ul>
+
+                    <span id="botao-login">
+                        <img src="img/account.png" alt="" id="icone-login">
+                        <a href="login.html">Login</a>
+                    </span>   
                     
-                        <a href="login.html" id="botao-login">Login</a>
+                    
                                       
-                </div>
+                </div>               
 
             </nav>
 
@@ -83,7 +89,7 @@
 
     <main>
 
-        <div>
+        <div class="">
 
             <div id="controleCarrossel" data-interval="1000" class="carousel" data-bs-ride="carousel">
 
@@ -124,8 +130,8 @@
         </div>
 
         <!--Quadro de Informações-->
-        <section id="hospital" class="container mt-5 mb-5">
-            <div class="row text-left">
+        <section id="hospital" class="container py-5 mb-5">
+            <div class="row text-left mt-5">
                 <div class="col-md-6">
                     <h3><p class="h3-txt-azul">Hospital Veterinário 24 horas</p></h3>
                     <p>Estamos preparados para oferecer ao seu pet tratamento veterinário especializado e dedicado em
@@ -168,6 +174,8 @@
             </div>
         </section>
 
+        
+
         <!--Qaudro de Opiniões-->
         <section class="container-fluid amarelo">
             <div class="row text-center">
@@ -180,52 +188,56 @@
                     <div class="col-md-3 mb-3">
                         <div class="card card-avaliacao">
                             <div class="card-body amarelo">
+                                <img src="svg/quote.svg" alt="" width="32" height="32">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, ad magnam? Debitis
                                 aliquam accusamus veritatis quas dignissimos in ipsa quia, vel, accusantium distinctio
                                 nulla, facilis suscipit ea? Magni, culpa. Dolorem!
                             </div>
                             <div class="card-footer azul">
-                                Eduardo Azevedo
-                                9/10
+                                Eduardo Azevedo<br>
+                                <img src="img/avaliacao.png" alt="" class="icone-avaliacao"> 9/10
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
                         <div class="card card-avaliacao">
                             <div class="card-body amarelo">
+                                <img src="svg/quote.svg" alt="" width="32" height="32">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repudiandae, ea vel
                                 delectus neque, id ut debitis suscipit culpa voluptas optio amet consequuntur ad,
                                 pariatur cumque! Dolorum perspiciatis assumenda eligendi.
                             </div>
                             <div class="card-footer azul">
-                                Ana Cláudia
-                                10/10
+                                Ana Cláudia<br>
+                                <img src="img/avaliacao.png" alt="" class="icone-avaliacao"> 10/10
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
                         <div class="card card-avaliacao">
                             <div class="card-body amarelo">
+                                <img src="svg/quote.svg" alt="" width="32" height="32">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam praesentium odit saepe
                                 officiis doloribus fugiat amet deserunt. Totam qui eius tempore amet, voluptatem sint
                                 deserunt, nesciunt eveniet porro placeat consequatur.
                             </div>
                             <div class="card-footer azul">
-                                Marluce Dias
-                                9,5/10
+                                Marluce Dias<br>
+                                <img src="img/avaliacao.png" alt="" class="icone-avaliacao"> 9,5/10
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
                         <div class="card card-avaliacao">
                             <div class="card-body amarelo">
+                                <img src="svg/quote.svg" alt="" width="32" height="32">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eius laboriosam. Illo
                                 officiis sint velit? Officiis rem, dolor in commodi aut laboriosam iusto natus expedita
                                 eos molestias rerum nulla odio?
                             </div>
                             <div class="card-footer azul">
-                                Fátima Gonçalves
-                                9/10
+                                Fátima Gonçalves<br>
+                                <img src="img/avaliacao.png" alt="" class="icone-avaliacao"> 9/10
                             </div>
                         </div>
                     </div>
@@ -234,13 +246,16 @@
 
         </section>
 
+        <!--section id="newsletter">
+            
+        </section-->
 
     </main>
 
 
     <footer class="d-flex flex-column justify-content-center align-items-center">
         <section id="text-footer">
-            Informações do footer
+            Projeto Final Curso OiDevs By Ada - Front-End Estático - Professor Dannyel Kayke
         </section>
     </footer>
 
