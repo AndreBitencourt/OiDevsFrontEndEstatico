@@ -14,7 +14,7 @@
 <style>
     .sobre {
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
         align-items: flex-start;
         justify-content: flex-start;
         margin: 3rem 3rem 0 3rem;
@@ -27,7 +27,11 @@
     }
 
     .sobre img {
-        width: 40vw;
+        width: 50vw;
+    }
+
+    .sobre p {
+        font-size: 5rem;
     }
 
     ol, ul {
@@ -43,9 +47,9 @@
     }
 
     .row {
-        margin: 3rem;
+        margin: 2rem 3rem 3rem 3rem;
     }
-    
+  
     .btn {
         background-color: #3d5974;
         border-color: #2e4459;
@@ -64,7 +68,15 @@
         }
 
         .row {
-            margin: 5rem;
+            gap: 3rem;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin: 1rem;
+        }
+
+        .col-sm-4 {
+            width: 80vw;
         }
         
     }
