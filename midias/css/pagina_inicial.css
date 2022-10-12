@@ -1,0 +1,83 @@
+@import url(./componentes/variaveis.css);
+@import url(./componentes/header.css);
+@import url(./componentes/footer.css);
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.h3-txt-azul {
+    color: var(--azul-header);
+}
+
+.icone {
+    background-color: var(--azul-header);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+.txt-azul {
+    color: var(--azul-header);
+    font-size: 25px;
+}
+
+.icone img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.icone-avaliacao {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+/*
+#comentarios {
+    min-height: 100px;
+    background-image: url('./img/banner-dog2.png') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+.amarelo {
+    background-color: var(--amarelo);
+}
+
+.azul {
+    background-color: var(--azul-footer);
+}
+
+.branco {
+    color: var(--bs-body-bg);
+}
+
+/*
+#newsletter{
+    background-image: url(../img/dog-cat.jpg);
+    position: relative;
+    margin-top: -200px;
+    height: 900px;
+    width: 100%;
+    z-index: -2;
+    visibility: visible;
+}*/
+
+#div-avaliacoes {
+    padding: 50px 0;
+    color: #fff;
+}
+
+.card-avaliacao {
+    height: 100%;
+    /*COR DA CARD*/
+    border: 2px solid;
+    border-color: var(--azul-footer);
+
+}
