@@ -11,7 +11,7 @@
     <title>Agendamento</title>
 </head>
 
-<body class="body-agendamento">
+<body class="body-agendamento"> 
 
     <div class="container-fluid" id="div-header">
         <header class="d-flex flex-wrap py-3">
@@ -78,17 +78,42 @@
     </div>
 
 <div class="main-agendamento">
+
+    <div class="card-imagem">
+        <img src="./img/colaborador_2.jpg">
+    </div>
+    
     <div class="card-agendamento">
+        <div class="text-login">AGENDAMENTO</div>
         <form>
             <fieldset>
                 <div class="text-field">
                     <label>Nome</label>
                     <input type="text" name="nome" id="nome-cliente">
                 </div>
+                <div class="text-field">
+                    <label>Nome do Pet</label>
+                    <input type="text" name="pet" id="pet-cliente">
+                </div>
+
+                <div class="text-field"> <!--rever pois está ficando tudo selecionado-->
+                    <label>Tipo de Pet</label>
+                    <div>
+                        <input type="radio" id="pet" name="cachorro" value="tipo">
+                        <label>Cachorro</label>
+                    
+                        <input type="radio" id="pet" name="gato" value="tipo">
+                        <label>Gato</label>
+                    
+                        <input type="radio" id="pet" name="outros" value="tipo">
+                        <label>Outros</label>
+                    </div>
+                </div> 
             </fieldset>
+
             <div class="text-field"> 
                 <label>Serviços</label> <!--dropdown dos serviços-->
-                <select id="serviços">
+                <select class="serviços">
                     <option selected disabled value="">Escolha o serviço</option>
                     <option>Banho</option>
                     <option>Hospedasem</option>
@@ -104,7 +129,7 @@
     
             <div class="text-field">
                 <label>Horário</label> <!--dropdown dos horários-->
-                <select id="horario">
+                <select class="horario">
                     <option selected disabled value="">Escolha o horário</option>
                     <option>8:00</option>
                     <option>9:00</option>
@@ -119,10 +144,21 @@
                 </select>  
             </div>
     
+            <div class="text-field">
+                <label>Observações:</label>
+                <textarea row="6" id="obs" name="obs"></textarea>
+            </div>
+
             <section>
                 <button class="agendamento-button" type="submit">Enviar</button>
             </section>    
-        
+        </form>
     </div>
-    </form>
+    
+
+
 </div>
+
+
+</body>
+</html>
