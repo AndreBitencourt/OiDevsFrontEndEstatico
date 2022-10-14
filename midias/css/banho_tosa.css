@@ -27,10 +27,6 @@ main h2 {
         
 }
 
-.imagem_banho img {
-    box-shadow: 2px 2px 10px black;
-}
-
 .titulo_banho {
     text-align: center;
     margin-top: 40px;
