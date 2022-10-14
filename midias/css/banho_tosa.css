@@ -27,6 +27,32 @@ main h2 {
         
 }
 
+.imagem_banho img {
+    box-shadow: 2px 2px 10px black;
+}
+
+.titulo_banho {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.texto_banho{
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.bloco_banho {
+    align-items: center;
+}
+.bloco_banho img {
+    width: 130px;
+}
+
+.bloco_banho p {
+    text-align: justify;
+    margin: 0 5px;
+}
+
 .img-banho-vantagens {
     padding: 20px;
     border-radius: 30px;
