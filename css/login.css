@@ -1,3 +1,6 @@
+@import url(./componentes/footer.css);
+@import url(./componentes/header.css);
+
 .body-login{
     
     margin: 0;
@@ -15,7 +18,7 @@ body * {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -26,7 +29,28 @@ body * {
     font-weight: bold;
     text-shadow: 1px 1px 1px  #353535;
 }
+.text-cadastro{
+    color: #bf9925;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px  #353535;
+}
 .card-login{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 35px 35px;
+    background-color: #3d5974;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px #2d4155; 
+    box-sizing: border-box;
+    margin: 0px 30px 10px 0px;
+}
+.card-cadastro{
     width: 30%;
     height: 50%;
     display: flex;
@@ -43,13 +67,11 @@ body * {
     width: 100%;
 }
 .card-logo{
-    width: 40%;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 35px 5px;
+    /* padding: 35px 5px; */
     background-color: transparent;
     box-sizing: border-box; /*não passar da borda do pai*/
     
@@ -82,7 +104,7 @@ body * {
     color: white;
     margin-bottom: 10px;
 }
-.login-button{
+.login-button, .cadastro-button{
     width: 100%;
     padding: 10px 0px;
     border: none;
@@ -102,18 +124,28 @@ button:hover{
 
 
 @media only screen and (max-width: 600px){ /*responsividade para o celular*/
-    .main{
+    .main-login{
        flex-direction: column;
     }
     .card-logo{
         display: none;
     }
     .card-login{
-        width: 90%;
-        height: 60vh;
+        width: 95%;
+        height: 50vh;
+        margin: 2%;
     }
     .text-login{
         font-size: 30px;
+        font-weight: bold;
+    }
+    .card-cadastro{
+        width: 95%;
+        height: 100vh;
+        margin: 2%;
+    }
+    .text-cadastro{
+        font-size: 20px;
         font-weight: bold;
     }
 }
