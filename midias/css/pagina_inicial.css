@@ -36,16 +36,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-/*
-#comentarios {
-    min-height: 100px;
-    background-image: url('./img/banner-dog2.png') center center no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}*/
-
 .amarelo {
     background-color: var(--amarelo);
 }
@@ -58,16 +48,6 @@ h1 {
     color: var(--bs-body-bg);
 }
 
-/*
-#newsletter{
-    background-image: url(../img/dog-cat.jpg);
-    position: relative;
-    margin-top: -200px;
-    height: 900px;
-    width: 100%;
-    z-index: -2;
-    visibility: visible;
-}*/
 
 #div-avaliacoes {
     padding: 50px 0;
@@ -81,3 +61,4 @@ h1 {
     border-color: var(--azul-footer);
 
 }
+
