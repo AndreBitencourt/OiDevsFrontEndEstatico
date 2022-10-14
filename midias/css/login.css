@@ -1,12 +1,12 @@
-@import url(./componentes/footer.css);
+@import url(./componentes/variaveis.css);
 @import url(./componentes/header.css);
+@import url(./componentes/footer.css);
 
 .body-login{
-    
     margin: 0;
     background-color: #2d4155;
     background-attachment: fixed;
-    font-family: CenturyGothic-Bold, Century Gothic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body * {
@@ -22,21 +22,24 @@ body * {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.text-login{
+
+.text-login {
     color: #bf9925;
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 1px 1px 1px  #353535;
 }
-.text-cadastro{
+
+.text-cadastro {
     color: #bf9925;
     text-transform: uppercase;
     font-size: 2vw;
     font-weight: bold;
     text-shadow: 1px 1px 1px  #353535;
 }
-.card-login{
+
+.card-login {
     width: 30%;
     height: 50%;
     display: flex;
@@ -50,7 +53,8 @@ body * {
     box-sizing: border-box;
     margin: 0px 30px 10px 0px;
 }
-.card-cadastro{
+
+.card-cadastro {
     width: 30%;
     height: 50%;
     display: flex;
@@ -63,20 +67,26 @@ body * {
     box-shadow: 0px 5px 40px #2d4155; 
     box-sizing: border-box;
 }
-.form-login{
+
+.form-login {
     width: 100%;
 }
-.card-logo{
+
+.card-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 35px 5px; */
     background-color: transparent;
-    box-sizing: border-box; /*não passar da borda do pai*/
-    
+    box-sizing: border-box; /*não passar da borda do pai*/ 
 }
-.text-field{
+
+.card-logo img {
+    height: 320px;
+    width: auto;
+}
+
+.text-field {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +95,8 @@ body * {
     margin-bottom: 10px;
     width: 100%;
 }
-.text-field > input{
+
+.text-field > input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -95,16 +106,19 @@ body * {
     color: white;
     outline: none;
 }
-.text-field >label{
+
+.text-field >label {
     margin-bottom: 5px;
 }
-.text-checkbox{
+
+.text-checkbox {
     justify-content: left;
     align-items: flex-start;
     color: white;
     margin-bottom: 10px;
 }
-.login-button, .cadastro-button{
+
+.login-button, .cadastro-button {
     width: 100%;
     padding: 10px 0px;
     border: none;
@@ -116,35 +130,40 @@ body * {
     cursor: pointer;
     box-shadow: 0px 10px 10px -14px #ffffff; 
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     background-color: #353535;
     color:#bf9925;;
 }
 
-
 @media only screen and (max-width: 600px){ /*responsividade para o celular*/
     .main-login{
-       flex-direction: column;
+        flex-direction: column;
     }
-    .card-logo{
+
+    .card-logo {
         display: none;
     }
-    .card-login{
+
+    .card-login {
         width: 95%;
         height: 50vh;
         margin: 2%;
     }
-    .text-login{
+
+    .text-login {
         font-size: 30px;
         font-weight: bold;
     }
-    .card-cadastro{
+
+    .card-cadastro {
         width: 95%;
         height: 100vh;
         margin: 2%;
     }
-    .text-cadastro{
+    
+    .text-cadastro {
         font-size: 20px;
         font-weight: bold;
     }
