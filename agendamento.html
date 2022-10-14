@@ -68,7 +68,10 @@
                      
                     </ul>
                     
-                        <a href="login.html" id="botao-login">Login</a>
+                    <span id="botao-login">
+                        <img src="img/account.png" alt="" id="icone-login">
+                        <a href="login.html">Login</a>
+                    </span>  
                                       
                 </div>
 
@@ -95,18 +98,20 @@
                     <label>Nome do Pet</label>
                     <input type="text" name="pet" id="pet-cliente">
                 </div>
+            </fieldset>
 
+            <fieldset>
                 <div class="text-field"> <!--rever pois está ficando tudo selecionado-->
                     <label>Tipo de Pet</label>
-                    <div>
-                        <input type="radio" id="pet" name="cachorro" value="tipo">
-                        <label>Cachorro</label>
+                    <div id="tipo-pet">
+                        <input type="radio" id="pet1" name="cachorro" value="tipo">
+                        <label for="pet1">Cachorro</label>
                     
-                        <input type="radio" id="pet" name="gato" value="tipo">
-                        <label>Gato</label>
+                        <input type="radio" id="pet2" name="gato" value="tipo">
+                        <label for="pet2">Gato</label>
                     
-                        <input type="radio" id="pet" name="outros" value="tipo">
-                        <label>Outros</label>
+                        <input type="radio" id="pet3" name="outros" value="tipo">
+                        <label for="pet3">Outros</label>
                     </div>
                 </div> 
             </fieldset>
@@ -155,7 +160,7 @@
         </form>
     </div>
     
-
+ 
 
 </div>
 
