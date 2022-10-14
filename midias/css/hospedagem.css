@@ -1,0 +1,42 @@
+@import url(./componentes/variaveis.css);
+@import url(./componentes/header.css);
+@import url(./componentes/footer.css);
+
+/* FOTO E TEXTO HOSPEDAGEM */
+
+.titulo_hospedagem{
+    text-align: center;
+    margin: 25px;
+}
+
+.img_hospedagem{
+    display: flex;
+    justify-content: center;
+}
+
+.img_hospedagem img{
+    box-shadow: 2px 2px 10px black;
+}
+
+.texto_hospedagem{
+    padding-right: 20px;
+    text-align: justify;
+}
+
+/* CARROSSEL */
+
+.titulo_carrossel{
+    text-align: center;
+    margin: 25px;
+}
+
+
+/* CARROSSEL CÃO  */
+
+.carrossel_cao{
+    width: 70%;
+    height: 50%;
+    margin: 0 auto 30px auto;
+}
+
+/* CARROSSEL GATO */
