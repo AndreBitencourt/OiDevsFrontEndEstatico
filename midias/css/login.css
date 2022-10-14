@@ -26,7 +26,7 @@ body * {
 .text-login {
     color: #bf9925;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: bold;
     text-shadow: 1px 1px 1px  #353535;
 }
