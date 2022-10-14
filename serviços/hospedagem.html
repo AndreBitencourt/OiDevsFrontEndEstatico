@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Code</title>
+    
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="../midias/css/hospedagem.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="div-header">
+        <header class="d-flex flex-wrap align-middle">
+            <a href="index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <figure id="svg-logo" class="me-auto">
+                    <img src="../midias/img/vertical_branco.png" alt="" id="img-logo">
+                </figure>
+            </a>
+
+            <nav class="navbar navbar-expand-md navbar-expand-lg" id="menu-superior">
+
+                <div id="hamburguer">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarTopo" aria-controls="navBarTopo" aria-expanded="false" aria-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="navbar-collapse collapse" id="navBarTopo">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../quem_somos.html">Quem Somos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Agendamento</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Serviços
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./banho_tosa.html">Banho & Tosa</a></li>
+                                <li><a class="dropdown-item" href="./vacinacao.html">Vacinação</a></li>
+                                <li><a class="dropdown-item" href="./hospedagem.html">Hospedagem</a></li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </div>               
+            </nav>
+
+            <span id="botao-login">
+                <img src="../midias/img/account.png" alt="" id="icone-login">
+                <a href="login.html">Login</a>
+            </span> 
+        </header>
+    </div>
+
+    <main>
+        <h1 class="titulo_hospedagem">Hospedagem</h1>
+        <div class="row">
+            <div class="img_hospedagem col-lg-12 col-xl-5 align-self-center mb-4">
+                <img class="col-10 card" src="../midias/img/hospedagem.jpg" alt="Hospedagem cão e gato">
+            </div>
+
+            <div class="texto_hospedagem col-lg-12 col-xl-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officiis cupiditate rem ducimus distinctio quaerat voluptatum numquam, deleniti saepe, eius id reprehenderit consequatur incidunt laborum quia ratione sit aperiam aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur dicta earum maiores. Aperiam quasi praesentium cumque nostrum et iure molestiae dicta incidunt, at reprehenderit veritatis omnis eaque ratione inventore voluptatem?
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officiis cupiditate rem ducimus distinctio quaerat voluptatum numquam, deleniti saepe, eius id reprehenderit consequatur incidunt laborum quia ratione sit aperiam aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur dicta earum maiores. Aperiam quasi praesentium cumque nostrum et iure molestiae dicta incidunt, at reprehenderit veritatis omnis eaque ratione inventore voluptatem?
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officiis cupiditate rem ducimus distinctio quaerat voluptatum numquam, deleniti saepe, eius id reprehenderit consequatur incidunt laborum quia ratione sit aperiam aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur dicta earum maiores. Aperiam quasi praesentium cumque nostrum et iure molestiae dicta incidunt, at reprehenderit veritatis omnis eaque ratione inventore voluptatem?
+                </p>
+            </div>
+        </div>
+        
+        <h2 class="titulo_carrossel">Estrutura para Cães</h2>
+        <div class="carrossel_cao">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../midias/img/quartos_hospedagem_cao.jpg" class="d-block w-100" alt="Quarto hospedagem">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>DORMITÓRIO</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../midias/img/playground_hospedagem.jpg" class="d-block w-100" alt="Playground para cães">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PLAYGROUND</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../midias/img/piscina_hospedagem.webp" class="d-block w-100" alt="Piscina para cães">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PISCINA</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../midias/img/massagem_hospedagem.jpg" class="d-block w-100" alt="Massagem para cães">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>MASSAGEM RELAXANTE</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+</body>
+
+<footer class="d-flex flex-column justify-content-center align-items-center">
+    <section id="text-footer">
+        Projeto Final Curso OiDevs By Ada - Front-End Estático - Professor Dannyel Kayke
+    </section>
+</footer>
+
+<!-- Importação de bibliotecas -->
+<script src="https://releases.jquery.com/git/jquery-git.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+<!-- Importação de scripts customizados -->
+<script src="./midias/js/scripts.js"></script>
+</body>
