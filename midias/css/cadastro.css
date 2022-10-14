@@ -36,8 +36,7 @@ body * {
     align-items: center;
     padding: 35px 35px;
     background-color: #3d5974;
-    border-radius: 20px;
-    box-shadow: 0px 5px 40px #2d4155; 
+    border-radius: 20px;   
     box-sizing: border-box;
 }
 .text-field{
@@ -66,8 +65,7 @@ body * {
     color: #bf9925;
     text-transform: uppercase;
     font-size: 2vw;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px  #353535;
+    font-weight: bold;    
 }
 .cadastro-button{
     width: 100%;
@@ -78,9 +76,9 @@ body * {
     font-weight: bold;
     color:#2d4155;
     background-color: #bf9925;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px -14px #ffffff; 
+    cursor: pointer;    
 }
+
 button:hover{
     cursor: pointer;
     background-color: #353535;
