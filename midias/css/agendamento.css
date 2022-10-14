@@ -33,8 +33,7 @@ body * {
     align-items: center;
     padding: 35px 35px;
     background-color: #3d5974;
-    border-radius: 20px;
-    box-shadow: 0px 5px 40px #2d4155; 
+    border-radius: 20px;     
     box-sizing: border-box;
 }
 
@@ -49,8 +48,6 @@ body * {
 .card-imagem img {
     height: 500px;  
     border-radius: 30px;
-    box-shadow: 2px 2px 10px;
-    /*border: 5px solid #2d4155;*/
 }
 
 form {
@@ -66,8 +63,7 @@ form {
     font-weight: bold;
     color:#2d4155;
     background-color: #bf9925;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px -14px #ffffff; 
+    cursor: pointer;    
     align-items: center;
 }
 
@@ -117,8 +113,7 @@ button:hover {
     color: #bf9925;
     text-transform: uppercase;
     font-size: 2vw;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px  #353535;
+    font-weight: bold;   
 }
 
 textarea {
